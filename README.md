@@ -47,7 +47,8 @@ npm install (package.json 안에 있는 필요한 데이터들 설치하는 과�
   },
 ```
 
-![image.png](attachment:81e56a16-7359-488e-884a-a8c942f7c434:image.png)
+<img width="584" height="387" alt="image" src="https://github.com/user-attachments/assets/c9ab8425-faf1-49e3-8579-5ba8fc87d713" />
+
 
 vue 실행 방법
 
