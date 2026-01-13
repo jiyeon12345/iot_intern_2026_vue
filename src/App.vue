@@ -1,11 +1,21 @@
-<script setup>
-import SensorListPage from './view/sensor/SensorListPage.vue';
-</script>
-
 <template>
   <div>
-    <SensorListPage />
+    <button v-if="route.path === '/'" @click="router.push('/sensor')">Sensor</button>
+    
+    <button v-if="route.path === '/'" @click="router.push('/realtime')">Websocket</button>
+    <router-view />
   </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import { useRouter, useRoute } from 'vue-router';
+const router = useRouter();
+const route = useRoute();
+</script>
+
+
+<style scoped>
+  button {
+    margin: 10px;
+  }
+</style>
